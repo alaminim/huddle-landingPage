@@ -1,0 +1,357 @@
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  header {
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* Logo and trial button styles*/
+
+  .headings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #try {
+    padding: 0.5rem;
+    background-color:  hsl(0 0% 100%);
+    color: hsl(0, 0%, 0%);
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px;
+    border-radius: 20px;
+    width: 120px;
+    border: none;
+  }
+  .main-container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+  }
+  #mockup {
+    margin-top: 4rem;
+    margin-right: 2rem;
+    height: 500px;
+    width: 650px;
+  }
+  .image-div {
+    order: 2;
+  }
+  .description-div {
+    margin-left: 2rem;
+    order: 1;
+  }
+  #build-heading {
+    font-size: 48px;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #desc {
+    font-weight: 200;
+    line-height: 1.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #started {
+    padding: 0.7rem;
+    color: hsl(0, 0%, 100%);
+    border-radius: 16px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(322, 100%, 66%);
+  }
+  /* main Section  Benefits and style */
+  main {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    margin-left: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .grow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 3px;
+    margin-bottom: 2.5rem;
+
+  }
+  #info {
+    margin-left: 7rem;
+    margin-right: 3rem;
+  }
+  #img {
+    margin-right: 7rem;
+  }
+  #box-heading {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  #box-desc {
+    font-size: 18px;
+    font-weight: 200;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .flow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 2px;
+    margin-bottom: 2.5rem;
+  }
+  .users {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 2px;
+    margin-bottom: 2.5rem;
+  }
+  #b-img {
+    width: 350px;
+    height: 280px;
+  }
+  /* Nearly access Section Styles */
+  .subscribe {
+    width: 60%;
+    height: 230px;
+    margin-left: 15.5rem;
+    margin-top: 8.5rem;
+    margin-bottom: -2.5rem;
+    position: relative;
+    overflow: visible;
+    background-color: hsl(0 0% 100%);
+    box-shadow: rgb(204,219, 232) 2px 2px 2px 3px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+  }
+  .subscribe {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+  }
+  #access {
+    font-size: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 0%);
+    margin: 2rem;     
+   }
+ 
+  input {
+    padding: 0.7rem;
+    border-radius: 16px;
+    border: none;
+  }
+  #get-started-2 {
+    padding: 1rem;
+    color: hsl(0, 0%, 100%);
+    border-radius: 16px;
+    width: 200px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+  }
+  .footer {
+    background-color: hsl(192, 100%, 9%);
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .huddle {
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+  }
+  #Address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    color: hsl(0, 0%, 100%);
+  }
+  .contacts {
+    margin-top: 5rem;
+    color: hsl(0, 0%, 100%);
+  }
+  #icon {
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+  }
+  #location {
+    margin-right: 1rem;
+    height: 30px;
+    width: 25px;
+  }
+  #callUS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #mailUS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #email {
+    height: 2opx;
+    width: 25px;
+    margin-right: 10px;
+  }
+  #number {
+    height: 20px;
+    width: 25px;
+    margin-right: 10px;
+  }
+  .about-us {
+    display: flex;
+    flex-flow: column;
+    text-transform: uppercase;
+    margin-top: 5.5rem;
+    color: hsl(0, 0%, 100%);
+  }
+  .contact-us {
+    display: flex;
+    flex-flow: column;
+    text-transform: uppercase;
+    margin-top: 5.5rem;
+    color: hsl(0, 0%, 100%);
+  }
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+  }
+  #icons {
+    margin-top: 5.5rem;
+    margin-right: 2rem;
+  }
+  #copyright {
+    color: hsl(0, 0%, 100%);
+    margin-right: 4rem;
+  }
+  @media screen and (max-width: 560px){
+   .container-fluid {
+    width: 100%;
+   }
+   #logo {
+    width: 35%;
+   }
+   #try {
+    padding: 0.8rem;
+   }
+  .main-container {
+    flex-wrap: wrap;
+  }
+  .description-div {
+    width: 100%;
+    margin-left: 0rem;
+    text-align: center;
+  }
+  #mockup {
+    width: 100%;
+    height: auto;
+  }
+  br {
+    display: none;
+  }
+  #started {
+    width: 80%;
+    padding: 1rem;
+  }
+  main {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    align-items: center;
+    width: 100%;
+  }
+  .grow {
+    flex-wrap: wrap;
+    width: 95%;
+    height: fit-content;
+  }
+  .flow {
+    flex-wrap: wrap;
+    width: 95%;
+    height: fit-content;
+  } 
+  .users {
+    flex-wrap: wrap;
+    width: 95%;
+    height: fit-content;
+  }
+  
+  #info {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding: 1rem;
+  }
+  .subscribe {
+    width: 90%;
+    height: 40vh;
+    margin-left: 2rem;
+    margin-right: 0rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .huddle {
+    margin-left: 0rem;
+    width: 85%;
+  }
+#copyright-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.about-us {
+    margin-top: 0rem;
+}
+.contact-us {
+    margin-top: 0rem;
+}
+.social-icons {
+    margin-top: 0rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    
+}
+.nearly-access {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#copyright {
+    margin-right: 0rem;
+    text-align: center;
+}
+#huddle-logo {
+    background-color: hsl(0, 0%, 100%);
+}
+
+  }
